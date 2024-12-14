@@ -33,58 +33,6 @@ This challenge involves processing a dataset containing voting data ("Voter ID",
 - Calculate the percentage of votes and the total number of votes for each candidate.
 - Determine the winner of the election based on the popular vote.
 
-**Input:**
-- `election_data.csv` (located in the `Resources` folder):
-  - Columns: `Voter ID`, `County`, `Candidate`
-
-**Output:**
-- Election results printed to the terminal.
-- Exported text file containing the election results (saved in the `analysis` folder).
-
----
-
-## Project Structure
-```
-python-challenge/
-│
-├── PyBank/
-│   ├── Resources/
-│   │   └── budget_data.csv
-│   ├── analysis/
-│   │   └── financial_analysis.txt
-│   └── main.py
-│
-├── PyPoll/
-│   ├── Resources/
-│   │   └── election_data.csv
-│   ├── analysis/
-│   │   └── election_results.txt
-│   └── main.py
-│
-└── README.md
-```
-
----
-
-## Installation and Usage
-
-### Prerequisites
-- Python 3.x installed on your computer.
-
-### Steps to Run the Scripts
-1. Clone this repository to your local machine.
-2. Navigate to the folder for the desired challenge (`PyBank` or `PyPoll`).
-3. Ensure the necessary input CSV file is located in the `Resources` folder.
-4. Run the `main.py` script using Python:
-   ```bash
-   python main.py
-   ```
-5. View the analysis results in the terminal and find the exported text file in the `analysis` folder.
-
----
-
-## Example Outputs
-
 ### PyBank: Financial Analysis
 ```
 Financial Analysis
@@ -109,8 +57,6 @@ Raymon Anthony Doane: 3.139% (11606)
 Winner: Diana DeGette
 -------------------------
 ```
-
----
 
 ## Skills Demonstrated
 - Python programming
